@@ -70,26 +70,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
                           ],
                         ),
                       ),
-                      RaisedButton(
-                  color: Colors.white,
-                  onPressed: (){
-                     Navigator.of(context).push(MaterialPageRoute(builder: (context) => ProfilePage()));
-                  },
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                    Container(
-                      padding: EdgeInsets.only(right: 15),
-                      child:  ImageIcon(
-                      AssetImage('assets/icon/gg_logo.png')
-                    )),
-                     Text('Go to Profile',
-                     style: TextStyle(
-                       
-                     ),) 
-                  ],),
-                  
-                )
+                      
                     ],
                   )),
             ),
